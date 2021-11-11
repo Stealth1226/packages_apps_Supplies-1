@@ -46,7 +46,7 @@
             app:supplies_shape="@drawable/navigation_transition_background_drawable_status_bar"
             app:supplies_title="@string/status_bar_category" />
 
-        <com.lighthouse.supplies.navigation.BubbleToggleView
+        <!-- <com.lighthouse.supplies.navigation.BubbleToggleView
             android:id="@+id/notifications_panel_category"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
             app:supplies_colorInactive="@color/color_inactive"
             app:supplies_icon="@drawable/ic_notifications_panel_category"
             app:supplies_shape="@drawable/navigation_transition_background_drawable_notifications_panel"
-            app:supplies_title="@string/notifications_panel_category" />
+            app:supplies_title="@string/notifications_panel_category" /> -->
 
         <!-- <com.lighthouse.supplies.navigation.BubbleToggleView
             android:id="@+id/navigation_and_recents_category"

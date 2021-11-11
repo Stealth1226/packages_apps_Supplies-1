@@ -51,7 +51,6 @@ import androidx.viewpager.widget.ViewPager;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.lighthouse.supplies.categories.NotificationsPanel;
 import com.lighthouse.supplies.categories.Lockscreen;
 import com.lighthouse.supplies.categories.Lockscreen;
 import com.lighthouse.supplies.categories.StatusBar;
@@ -82,8 +81,6 @@ public class Supplies extends SettingsPreferenceFragment implements
             @Override
             public void onNavigationChanged(View view, int position) {
                 if (view.getId() == R.id.status_bar_category) {
-                    viewPager.setCurrentItem(position, true);
-                } else if (view.getId() == R.id.notifications_panel_category) {
                     viewPager.setCurrentItem(position, true);
                 } else if (view.getId() == R.id.lockscreen_category) {
                     viewPager.setCurrentItem(position, true);
@@ -121,9 +118,8 @@ public class Supplies extends SettingsPreferenceFragment implements
         PagerAdapter(FragmentManager fm) {
             super(fm);
             frags[0] = new StatusBar();
-            frags[1] = new NotificationsPanel();
-            frags[2] = new Lockscreen();
-            frags[3] = new System();
+            frags[1] = new Lockscreen();
+            frags[2] = new System();
         }
 
         @Override
@@ -146,7 +142,6 @@ public class Supplies extends SettingsPreferenceFragment implements
         String titleString[];
         titleString = new String[]{
             getString(R.string.status_bar_category),
-            getString(R.string.notifications_panel_category),
             getString(R.string.lockscreen_category),
             getString(R.string.system_category)};
 

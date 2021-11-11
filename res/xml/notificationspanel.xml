@@ -22,10 +22,10 @@
         android:icon="@drawable/ic_notification"
         android:title="@string/notifications_title" /> -->
 
-    <com.lighthouse.support.preference.CardviewPreference
+    <!-- <com.lighthouse.support.preference.CardviewPreference
         android:key="quick_settings"
         android:fragment="com.lighthouse.supplies.fragments.QuickSettings"
         android:icon="@drawable/ic_quicksettings"
-        android:title="@string/quick_settings_title" />
+        android:title="@string/quick_settings_title" /> -->
 
 </PreferenceScreen>

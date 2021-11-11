@@ -20,11 +20,11 @@
         android:key="misc_supplies_icons_category"
         android:title="@string/icons_category">
 
-         <com.lighthouse.support.preference.SystemSettingSwitchPreference
+         <!-- <com.lighthouse.support.preference.SystemSettingSwitchPreference
             android:key="data_disabled_icon"
             android:title="@string/data_disabled_icon_title"
             android:summary="@string/data_disabled_icon_summary"
-            android:defaultValue="true"/>
+            android:defaultValue="true"/> -->
 
          <com.lighthouse.support.preference.SystemSettingSwitchPreference
              android:key="show_fourg_icon"
