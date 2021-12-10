@@ -26,12 +26,6 @@
         android:title="@string/buttons_title" />
 
      <com.lighthouse.support.preference.CardviewPreference
-        android:key="customisation"
-        android:fragment="com.lighthouse.supplies.fragments.Customisation"
-        android:icon="@drawable/ic_customisation"
-        android:title="@string/customisation_title" />
-
-     <com.lighthouse.support.preference.CardviewPreference
         android:key="general_tweaks"
         android:fragment="com.lighthouse.supplies.fragments.GeneralTweaks"
         android:icon="@drawable/ic_general_tweaks"
