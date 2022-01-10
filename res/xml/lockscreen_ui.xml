@@ -21,6 +21,13 @@
         android:key="lockscreen_ui_finterprint_category"
         android:title="@string/fingerprint_category">
 
+
+    <com.lighthouse.support.preference.SystemSettingSwitchPreference
+        android:key="disable_ripple_effect"
+        android:title="@string/disable_fingerprint_ripple_effect_title"
+        android:summary="@string/disable_fingerprint_ripple_effect_summary"
+        android:defaultValue="false" />
+
     <com.lighthouse.support.preference.SystemSettingSwitchPreference
         android:key="fingerprint_success_vib"
         android:title="@string/fprint_sucess_vib_title"
